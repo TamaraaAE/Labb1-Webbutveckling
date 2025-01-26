@@ -139,6 +139,15 @@ p {
     color: #000;
 }
 
+#cart-items-list li {
+    margin-bottom: 10px; 
+}
+
+.cart-item {
+    margin-bottom: 15px; 
+}
+
+
 
 
 

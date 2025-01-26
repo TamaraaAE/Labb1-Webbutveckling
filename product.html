@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="sv">
 <head>
@@ -16,9 +17,6 @@
                 <a class="nav-item nav-link" href="aboutus.html">Om Oss</a>
                 <a class="nav-item nav-link" href="product.html">Tjänster</a>
                 <a class="nav-item nav-link" href="javascript:void(0)" id="cart-icon" onclick="toggleCart()">Kundvagn (<span id="cart-count">0</span>)</a>
-                <a class="nav-item nav-link" href="cart.html" id="cart-icon">
-                <i class="fas fa-shopping-cart"></i> <span id="cart-count"></span>
-            </a>
             </div>
         </nav>
     </header>
@@ -28,13 +26,13 @@
         <div id="product-list" class="row"></div>
     </main>
 
-    <div id="cart-menu" >
+    
+    <div id="cart-menu" style="display: none; position: fixed; top: 50px; right: 20px; background-color: #fff; padding: 20px; border: 1px solid #ccc; width: 250px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
         <h4>Kundvagn</h4>
         <ul id="cart-items-list"></ul>
         <button class="btn btn-primary" onclick="checkout()">Betala</button>
         <button class="btn btn-danger" onclick="closeCart()">Stäng</button>
     </div>
-
 
     <footer class="text-center py-3">
         <p>&copy; 2025 Floristens Blommor</p>
@@ -44,5 +42,4 @@
     <script src="site.js"></script>
 </body>
 </html>
-
-        
+       
